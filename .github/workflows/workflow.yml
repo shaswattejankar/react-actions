@@ -30,4 +30,4 @@ jobs:
   echo:
     
     steps:
-      - uses: shaswattejankar/reusable-workflow-test/.github/workflows/reua-echo.yml
+      - uses: shaswattejankar/reusable-workflow-test@main
