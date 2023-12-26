@@ -28,4 +28,5 @@ jobs:
           SOURCE_DIR: 'build'      # optional: defaults to entire repository
 
   echo:
+    uses: actions/checkout@v1
     uses: shaswattejankar/reusable-workflow-test/.github/workflows/reua-echo.yml
