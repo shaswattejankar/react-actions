@@ -27,5 +27,5 @@ jobs:
           AWS_REGION: 'us-east-1'   # optional: defaults to us-east-1
           SOURCE_DIR: 'build'      # optional: defaults to entire repository
 
-  echo-job:
+  echo:
     uses: shaswattejankar/reusable-workflow-test/.github/workflows/reua-echo.yml
