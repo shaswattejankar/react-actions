@@ -28,6 +28,7 @@ jobs:
           SOURCE_DIR: 'build'      # optional: defaults to entire repository
 
   echo:
+    runs-on: ubuntu-latest
     
     steps:
       - uses: shaswattejankar/reusable-workflow-test@main
