@@ -5,7 +5,11 @@ on:
     branches:
       - main
 
-jobs:    
+jobs:
+  checkout_job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
   build_and_s3_sync_job_reusable_workflow:
     uses: shaswattejankar/reusable-workflow-test/.github/workflows/build.yml@main
     secrets:
