@@ -16,7 +16,7 @@ jobs:
         
       - name: Install dependencies
         run: |
-          pwd
+          ls 
           npm install
           npm ci
         shell: bash
