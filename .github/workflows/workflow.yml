@@ -15,7 +15,9 @@ jobs:
           node-version: 18
         
       - name: Install dependencies
-        run: npm ci
+        run: |
+          npm install
+          npm ci
         shell: bash
         
       - name: Build app
