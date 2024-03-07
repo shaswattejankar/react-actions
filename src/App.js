@@ -7,8 +7,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h3>
-          Using GitHub Actions for testing CI ( <code>with npm run build</code> ) 
-          and CD with ( <code>jakejarvis/s3-sync-action@master</code>) under "Jobs" in the .yml file
+          Using GitHub Reusable workflow from a different repo for building ( <code>with npm run build</code> ) 
+          and deploying to s3 hosting
         </h3>
       </header>
     </div>
