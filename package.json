@@ -1,5 +1,5 @@
 {
-  "homepage": "*",
+  "homepage": "http://reusable-workflows-test.s3-website.us-east-2.amazonaws.com/",
   "name": "react-actions",
   "version": "0.1.0",
   "private": true,
