@@ -7,7 +7,7 @@ on:
 
 jobs:
   node_run:
-    uses: shaswattejankar/reusable-workflow-test@main
+    uses: shaswattejankar/reusable-workflow-test/.github/workflows/build.yml@main
     
   s3_sync:
     runs-on: ubuntu-latest
