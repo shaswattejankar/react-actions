@@ -22,7 +22,7 @@ jobs:
         shell: bash
     
   s3_sync_job_reusable_workflow:
-    uses: shaswattejankar/reusable-workflow-test/.github/workflows/build.yml@mail
+    uses: shaswattejankar/reusable-workflow-test/.github/workflows/build.yml@main
     secrets:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY }}
